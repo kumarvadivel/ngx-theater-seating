@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ngx-theater-seating';
+  selected(data:any){
+    console.log(data)
+  }
 }

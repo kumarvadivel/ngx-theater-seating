@@ -102,6 +102,37 @@
           }
         }
       }
+    },
+    "theater-seating": {
+      "projectType": "library",
+      "root": "projects/theater-seating",
+      "sourceRoot": "projects/theater-seating/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/theater-seating/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/theater-seating/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/theater-seating/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/theater-seating/src/test.ts",
+            "tsConfig": "projects/theater-seating/tsconfig.spec.json",
+            "karmaConfig": "projects/theater-seating/karma.conf.js"
+          }
+        }
+      }
     }
   }
 }
