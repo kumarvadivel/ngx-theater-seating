@@ -15,8 +15,6 @@ export class TheaterSeatingComponent implements OnInit {
   @Output() onSelect = new EventEmitter()
   selectedSeats:Array<any>=[];
   ngOnInit(): void {
-    this.config = sampleConfig
-
   }
  getRand(seat:any){
   if(seat.iconCode){
