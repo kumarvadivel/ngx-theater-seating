@@ -1,6 +1,4 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
-import { sampleConfig } from './data';
-
 @Component({
   selector: 'ngx-theater-seating',
   templateUrl:'theater-seating.component.html',
