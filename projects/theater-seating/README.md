@@ -1,12 +1,13 @@
-# TheaterSeating
+# Ngx-theater-seating
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
+Ngx-theater-seating Component is a customizable Angular component that allows users to select seats in a theater . This component simplifies the process of seat selection and can be easily integrated into your Angular application.
 
-## Code scaffolding
+## Features
 
-Run `ng generate component component-name --project theater-seating` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project theater-seating`.
-> Note: Don't forget to add `--project theater-seating` or else it will be added to the default project in your `angular.json` file. 
-
+>Interactive seat selection: Users can click on available seats to select or deselect them.
+>Customizable seat types: Define different seat types (e.g., standard, VIP, wheelchair-accessible) and assign colors or icons to each type.
+>Seat availability: Display available, selected, and unavailable seats with different visual cues.
+>Easy integration: Quickly integrate the component into your Angular application.
 ## Build
 
 Run `ng build theater-seating` to build the project. The build artifacts will be stored in the `dist/` directory.
